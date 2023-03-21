@@ -1,0 +1,28 @@
+class SuperClass 
+{
+public void print() 
+{
+    System.out.println("This is the SuperClass");
+}  
+}
+class ChildClass extends SuperClass 
+{
+public void print() 
+{
+    System.out.println("This is the ChildClass");
+}
+}
+
+
+public class lab32
+{
+public static void main(String[] args) 
+{
+    SuperClass sc = new ChildClass();
+    sc.print(); 
+    ChildClass ch = new ChildClass();
+    ch.print(); 
+    //SuperClass aa = new Superclass();
+    //aa.print();
+}
+}
