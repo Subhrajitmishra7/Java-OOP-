@@ -1,0 +1,40 @@
+class Car 
+{
+public void start() 
+{
+System.out.println("Car started");
+}
+
+public void stop() 
+{
+    System.out.println("Car stopped");
+}
+}
+
+class Tata extends Car 
+{
+
+public void start() 
+{
+System.out.println("Tata started");
+}
+}
+
+
+public class lab31 
+{
+public static void main(String[] args) 
+{
+System.out.print("calling methode in nnormal \n");
+Tata tata = new Tata();
+tata.start();
+tata.stop();
+
+System.out.print("\ncalling methode in dynamic \n");
+
+Car car;
+car=tata;
+car.start(); 
+car.stop();  
+}
+}
