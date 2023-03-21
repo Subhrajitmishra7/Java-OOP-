@@ -1,3 +1,4 @@
+This code implements inheritance using extend keyword
 class Fruit 
 {  
 String name, taste, size;  
