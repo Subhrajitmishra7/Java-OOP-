@@ -1,3 +1,4 @@
+This code implements inheritance using the extend command
 class Shape {  
 void draw() {  
     System.out.println("Drawing Shape");  
